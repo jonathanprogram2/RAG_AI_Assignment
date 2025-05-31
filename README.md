@@ -35,6 +35,15 @@ Sentence-transformers are free, local, and easy to run. They provide solid perfo
 
 ---
 
+## 🔧 Suggestions for Improvement
+
+- Try using a more advanced embedding model (e.g., `all-MiniLM-L12-v2`) for better semantic matching.
+- Add a web UI (e.g., using Streamlit or Gradio) to make the system interactive.
+- Let users upload their own documents and dynamically regenerate embeddings.
+- Test other retrievers like BM25 or hybrid retrievers for better context matching.
+  
+---
+
 ## 💭 Reflection
 
 Building this RAG system taught me how search + generation can be combined. I now understand how AI agents retrieve and summarize info in real time. I also saw how things like embedding models, chunking, and index types affect results. Most importantly, I learned to debug deep dependency issues with real tools and Python packages.
